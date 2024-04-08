@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2% 35%;
+    background-color: rgb(48, 50, 72);
+}
+
+#main-container {
+    padding: 3%;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 15px;
+    box-shadow: black 30px 30px 30px;
+}
+
+#top-section {
+    background-color: rgb(39, 41, 56);
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+#top-section p {
+    width: 100%;
+    padding: 6% 4%;
+    text-align: right;
+    background-color: transparent;
+    font-size: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: antiquewhite;
+    border: none;
+}
+
+#bottom-section {
+    background-color: rgb(39, 41, 56);
+    padding: 8%;
+    margin-top: 5%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.btn {
+    height: 10vh;
+    border-radius: 5px;
+    color: rgb(8, 1, 30);
+    font-size: 25px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    box-shadow: rgb(127, 125, 132) 4px 4px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(53, 55, 75);
+    color: antiquewhite;
+    box-shadow: black 2px 2px 0px;
+}
+
+#del-btn {
+    background-color: rgba(129, 2, 2, 0.155);
+    color: antiquewhite;
+    font-size: 15px;
+    box-shadow: rgb(25, 24, 28) 3px 3px;
+}
+
+#del-btn:hover {
+    background-color: rgba(65, 0, 0, 0.573);
+}
+
+#reset-btn {
+    grid-column: span 2;
+    color: antiquewhite;
+    background-color: rgba(129, 2, 2, 0.155);
+    font-size: 15px;
+    box-shadow: rgb(25, 24, 28) 3px 3px;
+}
+
+#reset-btn:hover {
+    background-color: rgba(65, 0, 0, 0.573);
+}
+
+#equalto-btn {
+    grid-column: span 2;
+    color: antiquewhite;
+    background-color: rgb(129, 2, 2);
+    box-shadow: rgb(25, 24, 28) 3px 3px;
+}
